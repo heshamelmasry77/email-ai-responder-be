@@ -14,7 +14,7 @@ app.use(morgan('combined'))
 const allowedOrigins = [
   'http://localhost:3001',
   'http://127.0.0.1:5173',
-  'https://open-ai-mats.herokuapp.com',
+  'https://email-ai-responder-seven.vercel.app',
 ];
 
 app.use(
